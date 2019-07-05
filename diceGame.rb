@@ -1,5 +1,12 @@
+# 4. befor the game, it asks the user to provide a name,
+# and then the program greets the user
+puts "What is your name?"
+print '> '
+name = gets.chomp!
+printf("Hello, %s!\n\n", name)
 
-# generating and printing two random numbers(from 1..6) on the screen
+
+# 2. generating and printing two random numbers(from 1..6) on the screen
 puts "Rooloing the dice..."
 
 random = Random.new()
