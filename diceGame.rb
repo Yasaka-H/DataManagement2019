@@ -3,7 +3,7 @@
 puts "What is your name?"
 print '> '
 name = gets.chomp!
-printf("Hello, %s!\n\n", name)
+printf("Hello, %s!\n", name)
 
 
 # 2. generating and printing two random numbers(from 1..6) on the screen
@@ -22,10 +22,11 @@ printf("Total value: %d\n", total)
 
 # 5. if the total dice value is greater than 7, 
 # the program prints the You won, if not You lost
+# 6. remove the code You -> fix to user's name 
 if 7 < total then
-    printf("You won!\n")
+    printf("%s won!\n", name)
 else 
-    printf("You lost\n")
+    printf("%s lost\n", name)
 end
 
 
