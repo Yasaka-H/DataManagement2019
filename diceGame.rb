@@ -13,6 +13,13 @@ total = d1 + d2
 printf("Total value: %d\n", total)
 
 
+# 5. if the total dice value is greater than 7, 
+# the program prints the You won, if not You lost
+if 7 < total then
+    printf("You won!\n")
+else 
+    printf("You lost\n")
+end
 
 
 
